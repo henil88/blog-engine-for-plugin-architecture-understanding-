@@ -1,0 +1,28 @@
+{
+  "name": "plugin-architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev":"ts-node src/app.ts",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henil88/blog-engine-for-plugin-architecture-understanding-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henil88/blog-engine-for-plugin-architecture-understanding-/issues"
+  },
+  "homepage": "https://github.com/henil88/blog-engine-for-plugin-architecture-understanding-#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
