@@ -14,6 +14,6 @@ export class PluginManager {
     for (const plugin of this.plugins) {
       result = plugin.execute(result);
     }
-    return contex;
+    return result;
   }
 }
